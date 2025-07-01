@@ -1,0 +1,89 @@
+/* Make the main container a horizontal layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 200px;
+  background-color: #bfdafa;
+  padding: 1rem;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+/* Sidebar heading */
+.sidebar h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Remove bullets from list */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Space out the links */
+.sidebar ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Make the links look clean */
+.sidebar ul li a {
+  text-decoration: none;
+  color: #005fcd; /* A dark Keck color*/
+}
+
+/* Hover effect */
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Push content to the right of the sidebar */
+.content {
+  margin-left: 220px;
+  padding: 2rem;
+}
+
+/* === Table Styling === */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #bfdafa; /* Keck light blue */
+  padding: 12px;
+  font-size: 1rem;
+  text-align: left;
+  border-bottom: 2px solid #aaa;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Alternating row background color */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+  background-color: #f1f1f1;
+  cursor: default;
+}
+
+/* Optional: center last column (e.g., Download link) */
+td:last-child {
+  text-align: center;
+}
