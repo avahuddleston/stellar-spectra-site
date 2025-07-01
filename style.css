@@ -6,7 +6,7 @@
 /* Sidebar styles */
 .sidebar {
   width: 200px;
-  background-color: #bfdafa;
+  background-color: #e2efff;
   padding: 1rem;
   height: 100vh;
   position: fixed;
@@ -34,7 +34,7 @@
 /* Make the links look clean */
 .sidebar ul li a {
   text-decoration: none;
-  color: #005fcd; /* A dark Keck color*/
+  color: #030e1b; /* A dark Keck color*/
 }
 
 /* Hover effect */
@@ -60,16 +60,16 @@ table {
 }
 
 th {
-  background-color: #bfdafa; /* Keck light blue */
+  background-color: #e2efff; /* Keck light blue */
   padding: 12px;
   font-size: 1rem;
   text-align: left;
-  border-bottom: 2px solid #aaa;
+  border-bottom: 2px solid #005fcd;
 }
 
 td {
   padding: 12px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #005fcd;
 }
 
 /* Alternating row background color */
