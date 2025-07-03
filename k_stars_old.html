@@ -1,0 +1,906 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>K Stars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="sidebar">
+    <h2>Browse Stars</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="k_stars.html">K Stars</a></li>
+      <li><a href="l_stars.html">L Stars</a></li>
+      <li><a href="j_stars.html">J Stars</a></li>
+      <li><a href="h_stars.html">H Stars</a></li>
+      <li><a href="y_stars.html">Y Stars</a></li>
+    </ul>
+  </div>
+
+
+
+  <div class="content">
+    <h1>K Stars</h1>
+    <p>Table of K Stars:</p>
+    <label for="band-select">Select Band:</label>
+    <select id="band-select">
+    <option value="1">Band 1</option>
+    <option value="2">Band 2</option>
+    <option value="3">Band 3</option>
+    <option value="4">Band 4</option>
+    </select>
+
+
+    <table id="star-table">
+    <thead>
+      <tr>
+        <th>Star Name</th>
+        <th>Spectral Type</th>
+        <th>Wavelength Range</th>
+        <th>T_eff (K) </th>
+        <th>V_mag</th>
+        <th>Fe/H (Log)</th>
+        <th>Mass (M/M_sun)</th>
+        <th>Radius</th>
+        <th>Age (log(yr))</th>
+        <th>Band</th>
+        <th>File</th>
+        <th>Plots:</th>
+        <th>Order 1</th>
+        <th>Order 2</th>
+        <th>Order 3</th>
+        <th>Order 4</th>
+        <th>Order 5</th>
+        <th>Order 6</th>
+        <th>Order 7</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr data-band="1">
+        <td>HD 164259</td>
+        <td></td>
+        <td></td>
+        <td>6454</td>
+        <td>4.6</td>
+        <td>-0.03</td>
+        <td>1.43</td>
+        <td>1.961</td>
+        <td>9.4</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/HD164259_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD164259_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD164259_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD164259_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD164259_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD164259_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD164259_order5.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="2">
+        <td>HD 164259</td>
+        <td></td>
+        <td></td>
+        <td>6454</td>
+        <td>4.6</td>
+        <td>-0.03</td>
+        <td>1.43</td>
+        <td>1.961</td>
+        <td>9.4</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/HD164259_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K2_Plots/plots_bw/HD164259_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD164259_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD164259_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD164259_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD164259_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD164259_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD164259_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>HD 164259</td>
+        <td></td>
+        <td></td>
+        <td>6454</td>
+        <td>4.6</td>
+        <td>-0.03</td>
+        <td>1.43</td>
+        <td>1.961</td>
+        <td>9.4</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/HD164259_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K3_Plots/plots_bw/HD164259_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD164259_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD164259_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD164259_order3.png">PNG</a></td>
+      </tr>
+
+        <tr data-band="4">
+        <td>HD 164259</td>
+        <td></td>
+        <td></td>
+        <td>6454</td>
+        <td>4.6</td>
+        <td>-0.03</td>
+        <td>1.43</td>
+        <td>1.961</td>
+        <td>9.4</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/HD164259_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K4_Plots/plots_bw/HD164259_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD164259_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD164259_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD164259_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="1">
+        <td>HD 203473</td>
+        <td></td>
+        <td></td>
+        <td>5781</td>
+        <td>8.2</td>
+        <td>0.19</td>
+        <td>1.1</td>
+        <td>1.52</td>
+        <td>9.86</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/HD203473_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K1_Plots/plots_bw/HD203473_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD203473_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD203473_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD203473_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD203473_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD203473_order5.png">PNG</a></td>
+      </tr>
+
+        <tr data-band="2">
+        <td>HD 203473</td>
+        <td></td>
+        <td></td>
+        <td>5781</td>
+        <td>8.2</td>
+        <td>0.19</td>
+        <td>1.1</td>
+        <td>1.52</td>
+        <td>9.86</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/HD203473_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K2_Plots/plots_bw/HD203473_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD203473_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD203473_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD203473_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD203473_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD203473_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD203473_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>HD 203473</td>
+        <td></td>
+        <td></td>
+        <td>5781</td>
+        <td>8.2</td>
+        <td>0.19</td>
+        <td>1.1</td>
+        <td>1.52</td>
+        <td>9.86</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/HD203473_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K3_Plots/plots_bw/HD203473_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD203473_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD203473_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD203473_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="4">
+        <td>HD 203473</td>
+        <td></td>
+        <td></td>
+        <td>5781</td>
+        <td>8.2</td>
+        <td>0.19</td>
+        <td>1.1</td>
+        <td>1.52</td>
+        <td>9.86</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/HD203473_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K4_Plots/plots_bw/HD203473_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD203473_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD203473_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD203473_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="1">
+        <td>HD 199381</td>
+        <td></td>
+        <td></td>
+        <td>4844</td>
+        <td>6.9</td>
+        <td>0.17</td>
+        <td>1.21</td>
+        <td>4.61</td>
+        <td>9.78</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/HD199381_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K1_Plots/plots_bw/HD199381_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD199381_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD199381_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD199381_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD199381_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/HD199381_order5.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="2">
+        <td>HD 199381</td>
+        <td></td>
+        <td></td>
+        <td>4844</td>
+        <td>6.9</td>
+        <td>0.17</td>
+        <td>1.21</td>
+        <td>4.61</td>
+        <td>9.78</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/HD199381_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K2_Plots/plots_bw/HD199381_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD199381_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD199381_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD199381_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD199381_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD199381_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/HD199381_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>HD 199381</td>
+        <td></td>
+        <td></td>
+        <td>4844</td>
+        <td>6.9</td>
+        <td>0.17</td>
+        <td>1.21</td>
+        <td>4.61</td>
+        <td>9.78</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/HD199381_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K3_Plots/plots_bw/HD199381_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD199381_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD199381_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/HD199381_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="4">
+        <td>HD 199381</td>
+        <td></td>
+        <td></td>
+        <td>4844</td>
+        <td>6.9</td>
+        <td>0.17</td>
+        <td>1.21</td>
+        <td>4.61</td>
+        <td>9.78</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/HD199381_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K4_Plots/plots_bw/HD199381_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD199381_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD199381_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/HD199381_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="1">
+        <td>GL 514</td>
+        <td></td>
+        <td></td>
+        <td>3727</td>
+        <td>9.0</td>
+        <td>-0.09</td>
+        <td>0.527</td>
+        <td>0.483</td>
+        <td>9.54</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/GL514_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL514_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL514_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL514_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL514_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL514_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL514_order5.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="2">
+        <td>GL 514</td>
+        <td></td>
+        <td></td>
+        <td>3727</td>
+        <td>9.0</td>
+        <td>-0.09</td>
+        <td>0.527</td>
+        <td>0.483</td>
+        <td>9.54</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/GL514_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL514_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL514_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL514_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL514_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL514_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL514_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL514_order6.png">PNG</a></td>
+      </tr>
+
+       <tr data-band="3">
+        <td>GL 514</td>
+        <td></td>
+        <td></td>
+        <td>3727</td>
+        <td>9.0</td>
+        <td>-0.09</td>
+        <td>0.527</td>
+        <td>0.483</td>
+        <td>9.54</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/GL514_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL514_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL514_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL514_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL514_order3.png">PNG</a></td>
+      </tr>
+
+       <tr data-band="4">
+        <td>GL 514</td>
+        <td></td>
+        <td></td>
+        <td>3727</td>
+        <td>9.0</td>
+        <td>-0.09</td>
+        <td>0.527</td>
+        <td>0.483</td>
+        <td>9.54</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/GL514_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL514_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL514_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL514_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL514_order3.png">PNG</a></td>
+      </tr>
+
+    
+
+      <tr data-band="1">
+        <td>GL 745A</td>
+        <td></td>
+        <td></td>
+        <td>3500</td>
+        <td>10.8</td>
+        <td>-0.33</td>
+        <td>0.296</td>
+        <td>0.31</td>
+        <td>9.75</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/GL745A_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K1_Plots/plots_bw/GL745A_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL745A_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL745A_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL745A_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL745A_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL745A_order5.png">PNG</a></td>
+      </tr>
+
+       <tr data-band="2">
+        <td>GL 745A</td>
+        <td></td>
+        <td></td>
+        <td>3500</td>
+        <td>10.8</td>
+        <td>-0.33</td>
+        <td>0.296</td>
+        <td>0.31</td>
+        <td>9.75</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/GL745A_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K2_Plots/plots_bw/GL745A_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL745A_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL745A_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL745A_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL745A_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL745A_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL745A_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>GL 745A</td>
+        <td></td>
+        <td></td>
+        <td>3500</td>
+        <td>10.8</td>
+        <td>-0.33</td>
+        <td>0.296</td>
+        <td>0.31</td>
+        <td>9.75</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/GL745A_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K3_Plots/plots_bw/GL745A_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL745A_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL745A_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL745A_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="4">
+        <td>GL 745A</td>
+        <td></td>
+        <td></td>
+        <td>3500</td>
+        <td>10.8</td>
+        <td>-0.33</td>
+        <td>0.296</td>
+        <td>0.31</td>
+        <td>9.75</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/GL745A_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K4_Plots/plots_bw/GL745A_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL745A_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL745A_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL745A_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="1">
+        <td>GL 628</td>
+        <td></td>
+        <td></td>
+        <td>3272</td>
+        <td>10.1</td>
+        <td>-0.03</td>
+        <td>0.294</td>
+        <td>0.325</td>
+        <td>9.85</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/GL628_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K1_Plots/plots_bw/GL628_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL628_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL628_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL628_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL628_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL628_order5.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="2">
+        <td>GL 628</td>
+        <td></td>
+        <td></td>
+        <td>3272</td>
+        <td>10.1</td>
+        <td>-0.03</td>
+        <td>0.294</td>
+        <td>0.325</td>
+        <td>9.85</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/GL628_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K2_Plots/plots_bw/GL628_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL628_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL628_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL628_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL628_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL628_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL628_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>GL 628</td>
+        <td></td>
+        <td></td>
+        <td>3272</td>
+        <td>10.1</td>
+        <td>-0.03</td>
+        <td>0.294</td>
+        <td>0.325</td>
+        <td>9.85</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/GL628_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K3_Plots/plots_bw/GL628_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL628_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL628_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL628_order3.png">PNG</a></td>
+      </tr>
+
+        <tr data-band="4">
+        <td>GL 628</td>
+        <td></td>
+        <td></td>
+        <td>3272</td>
+        <td>10.1</td>
+        <td>-0.03</td>
+        <td>0.294</td>
+        <td>0.325</td>
+        <td>9.85</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/GL628_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <Td></Td>
+        <td><a href="plots/K4_Plots/plots_bw/GL628_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL628_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL628_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL628_order3.png">PNG</a></td>
+      </tr>
+
+
+      <tr data-band="1">
+        <td>GL 555</td>
+        <td></td>
+        <td></td>
+        <td>3211</td>
+        <td>11.3</td>
+        <td>0.17</td>
+        <td>0.273</td>
+        <td>0.31</td>
+        <td>9.89</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/GL555_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL555_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL555_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL555_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL555_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL555_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GL555_order5.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="2">
+        <td>GL 555</td>
+        <td></td>
+        <td></td>
+        <td>3211</td>
+        <td>11.3</td>
+        <td>0.17</td>
+        <td>0.273</td>
+        <td>0.31</td>
+        <td>9.89</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/GL555_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL555_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL555_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL555_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL555_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL555_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL555_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GL555_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>GL 555</td>
+        <td></td>
+        <td></td>
+        <td>3211</td>
+        <td>11.3</td>
+        <td>0.17</td>
+        <td>0.273</td>
+        <td>0.31</td>
+        <td>9.89</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/GL555_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL555_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL555_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL555_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GL555_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="4">
+        <td>GL 555</td>
+        <td></td>
+        <td></td>
+        <td>3211</td>
+        <td>11.3</td>
+        <td>0.17</td>
+        <td>0.273</td>
+        <td>0.31</td>
+        <td>9.89</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/GL555_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL555_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL555_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL555_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GL555_order3.png">PNG</a></td>
+      </tr>
+
+
+      <tr data-band="1">
+        <td>GJ 876</td>
+        <td></td>
+        <td></td>
+        <td>3129</td>
+        <td>10.2</td>
+        <td>0.19</td>
+        <td>0.35</td>
+        <td>0.376</td>
+        <td>10.09</td>
+        <td>1</td>
+        <td><a href="data/k1_fits/GJ876_Kband1_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K1_Plots/plots_bw/GJ876_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GJ876_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GJ876_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GJ876_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GJ876_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/GJ876_order5.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="2">
+        <td>GJ 876</td>
+        <td></td>
+        <td></td>
+        <td>3129</td>
+        <td>10.2</td>
+        <td>0.19</td>
+        <td>0.35</td>
+        <td>0.376</td>
+        <td>10.09</td>
+        <td>2</td>
+        <td><a href="data/k2_fits/GJ876_Kband2_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K2_Plots/plots_bw/GJ876_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GJ876_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GJ876_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GJ876_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GJ876_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GJ876_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/GJ876_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>GJ 876</td>
+        <td></td>
+        <td></td>
+        <td>3129</td>
+        <td>10.2</td>
+        <td>0.19</td>
+        <td>0.35</td>
+        <td>0.376</td>
+        <td>10.09</td>
+        <td>3</td>
+        <td><a href="data/k3_fits/GJ876_Kband3_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K3_Plots/plots_bw/GJ876_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GJ876_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GJ876_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/GJ876_order3.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="4">
+        <td>GJ 876</td>
+        <td></td>
+        <td></td>
+        <td>3129</td>
+        <td>10.2</td>
+        <td>0.19</td>
+        <td>0.35</td>
+        <td>0.376</td>
+        <td>10.09</td>
+        <td>4</td>
+        <td><a href="data/k4_fits/GJ876_Kband4_tellcorr_opt.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K4_Plots/plots_bw/GJ876_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GJ876_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GJ876_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/GJ876_order3.png">PNG</a></td>
+      </tr>
+
+    <tr data-band="1">
+        <td>HIP 1603</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td><a href="data/k1_fits/HIP1603.Kband1.coadded.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K1_Plots/plots_bw/TelluricStandard_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/TelluricStandard_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/TelluricStandard_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/TelluricStandard_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/TelluricStandard_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_bw/TelluricStandard_order5.png">PNG</a></td>
+    </tr>
+
+   
+
+    <tr data-band="2">
+        <td>HIP 1603</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2</td>
+        <td><a href="data/k2_fits/HIP1603.Kband2.coadded.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K2_Plots/plots_bw/TelluricStandard_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/TelluricStandard_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/TelluricStandard_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/TelluricStandard_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/TelluricStandard_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/TelluricStandard_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_bw/TelluricStandard_order6.png">PNG</a></td>
+    </tr>
+
+    <tr data-band="3">
+        <td>HIP 1603</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>3</td>
+        <td><a href="data/k3_fits/HIP1603.Kband3.coadded.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K3_Plots/plots_bw/TelluricStandard_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/TelluricStandard_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/TelluricStandard_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_bw/TelluricStandard_order3.png">PNG</a></td>
+    </tr>
+
+        <tr data-band="4">
+        <td>HIP 1603</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>4</td>
+        <td><a href="data/k4_fits/HIP1603.Kband4.coadded.fits">FITS</a></td>
+        <td></td>
+        <td><a href="plots/K4_Plots/plots_bw/TelluricStandard_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/TelluricStandard_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/TelluricStandard_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_bw/TelluricStandard_order3.png">PNG</a></td>
+    </tr>
+
+    
+      <tr data-band="1">
+        <td>Stacked Plots</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td><a href="plots/K1_Plots/plots_stacked/K1_order0.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_stacked/K1_order1.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_stacked/K1_order2.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_stacked/K1_order3.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_stacked/K1_order4.png">PNG</a></td>
+        <td><a href="plots/K1_Plots/plots_stacked/K1_order5.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="2">
+        <td>Stacked Plots</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>2</td>
+        <td></td>
+        <td></td>
+        <td><a href="plots/K2_Plots/plots_stacked/K2_order0.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_stacked/K2_order1.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_stacked/K2_order2.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_stacked/K2_order3.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_stacked/K2_order4.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_stacked/K2_order5.png">PNG</a></td>
+        <td><a href="plots/K2_Plots/plots_stacked/K2_order6.png">PNG</a></td>
+      </tr>
+
+      <tr data-band="3">
+        <td>Stacked Plots</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>3</td>
+        <td></td>
+        <td></td>
+        <td><a href="plots/K3_Plots/plots_stacked/k3_order0.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_stacked/K3_order1.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_stacked/K3_order2.png">PNG</a></td>
+        <td><a href="plots/K3_Plots/plots_stacked/K3_order3.png">PNG</a></td>
+      </tr>
+
+    
+
+      <tr data-band="4">
+        <td>Stacked Plots</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>4</td>
+        <td></td>
+        <td></td>
+        <td><a href="plots/K4_Plots/plots_stacked/K4_order0.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_stacked/K4_order1.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_stacked/K4_order2.png">PNG</a></td>
+        <td><a href="plots/K4_Plots/plots_stacked/K4_order3.png">PNG</a></td>
+      </tr>
+
+
+    </tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+  const bandSelect = document.getElementById("band-select");
+  const rows = document.querySelectorAll("#star-table tbody tr");
+
+  bandSelect.addEventListener("change", () => {
+    const selected = bandSelect.value;
+    rows.forEach(row => {
+      const band = row.getAttribute("data-band");
+      if (selected === "all" || selected === band) {
+        row.style.display = "";
+      } else {
+        row.style.display = "none";
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
